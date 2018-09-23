@@ -1,15 +1,26 @@
 #name:hover {
     background-color: aquamarine;
 }
+
 #name:focus {
     color: red;
 }
+
 .customer:first-child {
     color: lime;
 }
+
 .customer:nth-child(3) {
     color: blue;
 }
+
 .customer:nth-last-child(3) {
     color: blue;
+}
+
+.customer:nth-child(odd) {
+    background-color: beige
+}
+.customer:nth-child(3n+4) {
+    background-color: aqua;
 }
