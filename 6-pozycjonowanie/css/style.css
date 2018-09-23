@@ -1,0 +1,16 @@
+p {
+    background-color: pink !important;
+}
+
+
+p#paragraph {
+    background-color: orange;
+}
+
+p {
+    background-color: yellow;
+}
+
+p.paragraph {
+    background-color: aqua
+}
