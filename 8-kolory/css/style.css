@@ -1,0 +1,28 @@
+div {
+    width: 200px;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+#predefined-colors {
+    background-color: aquamarine;
+}
+
+#hexadecimal-colors {
+    background-color: #ff44ab;
+}
+
+#short-hexadecimal-colors {
+    background-color: #f4a;
+}
+
+
+#rgba-function {
+    background-color: rgb(22, 16, 188);
+    
+}
+
+#rgba-function {
+    background-color: rgba(155, 122, 108, 0,8)
+
+
