@@ -1,0 +1,34 @@
+#p1 {
+    background-color: aliceblue;
+}
+
+#p2 {
+    background-color: aqua;
+}
+
+#inline-elements p {
+    display: inline;
+}
+
+#inline-p1 {
+    background-color: rosybrown;
+}
+
+#inline-p2 {
+    background-color: darkgreen;
+}
+
+
+#inline-block-elements li {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    background-color: hotpink;
+}
+
+#display-none {
+    display: none;
+}
+
+
