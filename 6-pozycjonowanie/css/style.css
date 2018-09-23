@@ -1,16 +1,46 @@
+#static{
+    width: 400px;
+    height: 100px;
+    background-color: #ff7900;
+}
+
+#relative{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: lightgray;
+    top: 50px;
+    left: 50px;
+}
+
 p {
-    background-color: pink !important;
+    background-color: aliceblue;
 }
 
-
-p#paragraph {
-    background-color: orange;
+#absolute {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 400px;
+    height: 100px;
+    background-color: navajowhite;
 }
 
-p {
-    background-color: yellow;
+#fixed {
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    bottom: 40px;
+    right: 20px;
 }
 
-p.paragraph {
-    background-color: aqua
+#sticky {
+    width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+    
 }
+
