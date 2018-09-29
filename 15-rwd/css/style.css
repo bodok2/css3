@@ -1,0 +1,21 @@
+.box {
+    
+    width: 25%;
+    height: 400ps;
+    box-sizing: border-box;
+    padding: 40px;
+    border: 20px solid orange;
+    float: left;
+}
+
+.box button {
+    display: none;
+}
+
+    
+.box button {
+            display: inline-block;
+}
+
+
+    
