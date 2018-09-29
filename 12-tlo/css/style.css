@@ -1,0 +1,27 @@
+body {
+    background-color: red;
+}
+
+
+p {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    
+}
+
+
+.bg {
+    background-color: rgba(147,255,67,.6);
+    background-image: url(../img/akademia108_logo_mob.png);
+    background-repeat: repeat-y;
+}
+
+
+
+
+
+
+
+
+
+
