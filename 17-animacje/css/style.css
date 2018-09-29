@@ -1,0 +1,33 @@
+.animate {
+    
+
+
+/*
+.animate {
+    height: 200px;
+    background-color: aquamarine;
+    animation-name: resize;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+*/
+
+animation: resize 6s steps(6,start) 1 2s forwards;
+    }
+
+@keyframes resize {
+    0%, 100% {
+        width: 100%;
+        transform: translateX(0);
+        
+    } 50% {
+        width: 50%;
+        transform: translateX(200px);
+        
+    } 100% {
+        width: 300px;
+        transform: translateX(-300px;)
+    }
+}
