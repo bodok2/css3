@@ -11,9 +11,18 @@ p {
 
 
 .bg {
+/*
     background-color: rgba(147,255,67,.6);
     background-image: url(../img/akademia108_logo_mob.png);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: 100px 50px;
+*/
+    
+    background: rgba(147,255,67,1) url(../img/akademia108_logo_mob.png) no-repeat 100px 50px;
+        
+        
+    background-size: 500px auto;
+    background-size: 500px auto;
 }
 
 
